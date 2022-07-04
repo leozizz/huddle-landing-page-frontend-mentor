@@ -1,0 +1,132 @@
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+}
+
+body {
+    background: url(../img/bg-desktop.svg) center center no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    margin: 50px;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "header header"
+                         "illustration about"
+                         ". social"
+                         "footer footer";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/*HEADER*/
+
+.header {
+    grid-area: header;
+}
+
+/*ILLUSTRATION*/
+
+.illustration {
+    grid-area: illustration;
+}
+
+.illustration img {
+    width: 100%;
+}
+
+/*ABOUT*/
+
+.about {
+    grid-area: about;
+    max-width: 500px;
+    margin: 30px 40px;
+}
+
+.about h1, p, button {
+    margin-top: 20px;
+}
+
+.about .singup button {
+    color: hsl(257, 40%, 49%);
+    font-size: 1.5rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 40px;
+    width: 150px;
+    height: 40px;
+    transition: 0.3s;
+    -webkit-box-shadow: 4px 4px 21px 2px rgba(0,0,0,0.45);
+    box-shadow: 4px 4px 21px 2px rgba(0,0,0,0.45);
+}
+
+.about .singup button:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: hsl(300, 69%, 71%);
+    
+}
+
+/*SOCIAL*/
+
+.social {
+    grid-area: social;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 4rem;
+    height: 4rem;
+    border: solid 1px #fff;
+    border-radius: 100%;
+    transition: 0.3s;
+}
+
+.social i {
+    font-size: 2rem;
+    transition: 0.3s;
+}
+
+.social a:hover {
+    border: solid 1px hsl(300, 69%, 71%);
+}
+
+.social a:hover i {
+    color: hsl(300, 69%, 71%);
+}
+
+/*FOOTER*/
+
+.footer {
+    grid-area: footer;
+    margin: 0 auto;
+}
+
+.footer a {
+    transition: 0.3s;
+}
+
+.footer a:hover {
+    color: hsl(300, 69%, 71%);
+}
