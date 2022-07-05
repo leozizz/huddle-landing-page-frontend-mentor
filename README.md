@@ -25,14 +25,17 @@ Users should be able to:
 
 ### Screenshots
 
+#### Desktop Preview
 ![Desktop Preview](./src/readme/desktop-preview.png)
 
+
+#### Mobile Preview
 ![Mobile Preview](./src/readme/mobile-preview.png)
 
 ### Links
 
-- Solution URL: [Huddle Landing Page - Leozizz GitHub](https://your-solution-url.com)
-- Live Site URL: [Huddle Landing Page - Leozizz ](https://your-live-site-url.com)
+- Solution URL: [Huddle Landing Page - Leozizz GitHub](https://www.frontendmentor.io/solutions/huddle-landing-page-using-css-grid-and-flexbox-V4LTpa2lqp)
+- Live Site URL: [Huddle Landing Page - Leozizz ](https://leozizz.github.io/huddle-landing-page-frontend-mentor/)
 
 ## My process
 
@@ -56,4 +59,4 @@ Currently I don't have in-depth knowledge of HTML and CSS, but I am studying mor
 
 ## Acknowledgments
 
-I thank the entire Dev em Dobro team that has been helping me through the DevQuest training where I am having the opportunity to learn and improve my skills in Front-end development and for all the mentoring and help available.
+I thank the entire [**Dev em Dobro**](https://www.instagram.com/devemdobro/) team that has been helping me through the **DevQuest** training where I am having the opportunity to learn and improve my skills in Front-end development and for all the mentoring and help available.
