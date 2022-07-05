@@ -10,7 +10,7 @@ h1 {
 
 p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     line-height: 2.2rem;
 }
 
@@ -34,14 +34,16 @@ body {
 
 .header {
     grid-area: header;
-    margin-top: 60px;
+    margin-top: 50px;
     margin-bottom: 100px;
+    margin-left: 60px;
 }
 
 /*ILLUSTRATION*/
 
 .illustration {
     grid-area: illustration;
+    margin-left: 60px;
 }
 
 .illustration img {
@@ -52,8 +54,8 @@ body {
 
 .about {
     grid-area: about;
-    max-width: 500px;
-    margin: 30px 40px;
+    max-width: 520px;
+    margin: 20px 50px;
 }
 
 .about h1, p, button {
@@ -87,6 +89,7 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
+    margin: 0 60px;
 }
 
 .social a {
@@ -119,6 +122,10 @@ body {
 .footer {
     grid-area: footer;
     margin: 0 auto;
+}
+
+.footer .attribution {
+    font-size: 1.5rem;
 }
 
 .footer a {

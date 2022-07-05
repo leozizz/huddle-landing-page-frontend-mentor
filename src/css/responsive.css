@@ -23,8 +23,7 @@
 
     .header {
         align-self: flex-start;
-        margin-top: 0px;
-        margin-bottom: 50px;
+        margin: 0px 0px 50px 0px;
     }
 
     .header .logo {
@@ -33,6 +32,10 @@
 
     .header .logo img {
         width: 100%;
+    }
+
+    .illustration {
+        margin-left: 0;
     }
 
     .about {
