@@ -1,5 +1,7 @@
-@media (max-width: 576px) {
+/*TABLET*/
 
+@media (max-width: 700px) {
+    
     body {
         background: url(../img/bg-mobile.svg) center center no-repeat;
         background-size: cover;
@@ -11,6 +13,36 @@
         margin: 0 30px;
     }
 
+    .header {
+        align-self: flex-start;
+        margin: 0px 0px 50px 0px;
+    }
+
+    .illustration {
+        margin: 0 30px;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about p {
+        width: 450px;
+    }
+
+    .about .signup button {
+        width: 200px;
+        height: 50px;
+    }
+
+}
+
+/*MOBILE*/
+
+@media (max-width: 576px) {
 
     h1 {
         font-size: 2rem;
@@ -19,11 +51,6 @@
     p {
         font-size: 1.2rem;
         line-height: 1.8rem;
-    }
-
-    .header {
-        align-self: flex-start;
-        margin: 0px 0px 50px 0px;
     }
 
     .header .logo {
@@ -35,14 +62,7 @@
     }
 
     .illustration {
-        margin-left: 0;
-    }
-
-    .about {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+        margin: 0;
     }
 
     .about p {
