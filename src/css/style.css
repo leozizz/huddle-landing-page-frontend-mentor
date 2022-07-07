@@ -44,6 +44,7 @@ body {
 .illustration {
     grid-area: illustration;
     margin-left: 60px;
+    align-self: center;
 }
 
 .illustration img {
