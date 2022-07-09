@@ -1,11 +1,19 @@
 /*TABLET*/
 
-@media (max-width: 700px) {
-    
-    body {
+@media (max-width: 768px) {
+
+    html {
         background: url(../img/bg-mobile.svg) center center no-repeat;
         background-size: cover;
         background-color: hsl(257, 40%, 49%);
+    }
+
+    p {
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
+    
+    body {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -19,6 +27,7 @@
     }
 
     .illustration {
+        width: 80%;
         margin: 0 30px;
     }
 
@@ -30,12 +39,20 @@
     }
 
     .about p {
-        width: 450px;
+        width: 500px;
     }
 
-    .about .signup button {
-        width: 200px;
-        height: 50px;
+    .about .signup {
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+    }
+
+    .social {
+        margin-bottom: 20px;
+    }
+
+    .footer .attribution {
+        font-size: 1.6rem;
     }
 
 }
@@ -45,12 +62,12 @@
 @media (max-width: 576px) {
 
     h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     p {
-        font-size: 1.2rem;
-        line-height: 1.8rem;
+        font-size: 1.8rem;
+        line-height: 2.5rem;
     }
 
     .header .logo {
@@ -66,26 +83,28 @@
     }
 
     .about p {
-        width: 230px;
+        width: 350px;
+        margin-bottom: 30px;
     }
 
-    .about .signup button {
-        font-size: 1rem;
-        width: 150px;
-        height: 30px;
+    .about .signup {
+        font-size: 1.3rem;
+        padding: 10px 70px;
+        margin-bottom: 30px;
     }
 
     .social a {
-        width: 2.2rem;
-        height: 2.2rem;
+        width: 2.5rem;
+        height: 2.5rem;
         margin: 5px;
     }
 
     .social i {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .footer .attribution {
-        font-size: 1rem;
+        margin-top: 10px;
+        font-size: 1.2rem;
     }
 }

@@ -1,5 +1,8 @@
 html {
     font-size: 62.5%;
+    background: url(../img/bg-desktop.svg) center center no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
 }
 
 h1 {
@@ -14,11 +17,12 @@ p {
     line-height: 2.2rem;
 }
 
+a {
+    font-family: 'Open Sans', sans-serif;
+}
+
 body {
     height: 100vh;
-    background: url(../img/bg-desktop.svg) center center no-repeat;
-    background-size: cover;
-    background-color: hsl(257, 40%, 49%);
     display: grid;
     grid-template-areas: "header header"
                          "illustration about"
@@ -59,24 +63,27 @@ body {
     margin: 20px 50px;
 }
 
-.about h1, p, button {
-    margin-top: 20px;
+.about h1 {
+    margin-bottom: 20px;
 }
 
-.about .signup button {
+.about p {
+    margin-bottom: 50px;
+}
+
+.about .signup {
     color: hsl(257, 40%, 49%);
     font-size: 1.5rem;
     background-color: #fff;
     border: none;
     border-radius: 40px;
-    width: 150px;
-    height: 40px;
+    padding: 20px 70px;
     transition: 0.3s;
     -webkit-box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.30);
     box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.30);
 }
 
-.about .signup button:hover {
+.about .signup:hover {
     cursor: pointer;
     color: #fff;
     background-color: hsl(300, 69%, 71%);
